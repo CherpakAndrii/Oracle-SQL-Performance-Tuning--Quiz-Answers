@@ -2,6 +2,7 @@
 ## Coursera quiz answers
 
 * [Understanding Necessity of SQL Tuning (100%)](https://github.com/CherpakAndrii/Oracle-SQL-Performance-Tuning--Quiz-Answers#understanding-necessity-of-sql-tuning)
+* [Tracing Query Execution Techniques (100%)](https://github.com/CherpakAndrii/Oracle-SQL-Performance-Tuning--Quiz-Answers#tracing-query-execution-techniques)
 
 # Understanding Necessity of SQL Tuning
 ### 1. Char data type will take more disk space than Varchar data type.
@@ -57,3 +58,55 @@
 * Where
 * Having
 * Group By
+
+
+# Tracing Query Execution Techniques
+### 1. The output of Explain is stored in a table known as Plan_Table
+* ***True***
+* False
+
+### 2. Explain Plan output may not practically be correct always.
+* ***True***
+* False
+
+### 3. Checking SQL statement syntax is done while executing and not while compiling.
+* True
+* ***False***
+
+### 4. Bind variable is session specific
+* ***True***
+* False
+
+### 5. The sql statements Select * from Emp; and select * from emp; are same for hard parsing?
+* Yes
+* ***No***
+
+### 6. To eliminate the hard parsing again what is used.
+* Substitution Variable
+* ***Bind Variable***
+* PLSQL Package variable
+* A Local PLSQL variable
+
+### 7. -- The --- dynamic view is used to see the parsing details
+* V$parse
+* ***V$sql***
+
+### 8. In which parsing the syntax of a sql statement is checked?
+* Soft parse
+* ***Hard Parse***
+
+### 9. The____needs DBA privilege.
+* ***AutoTrace***
+* Explain Plan
+
+### 10. Explain plan neither executes the query nor automatically queries the plan table.
+* ***True***
+* False
+
+### 11. The heavy data loading has not happened. Some small volume of data is dumped in the tables. Only the indexing and structure is ready. Which is a good way to know the execution?
+* AutoTrace
+* ***Explain Plan***
+
+### 12. For knowing the execution details Explain Plan is an initial activity to be done whereas AutoTrace is the activity to be done later
+* ***True***
+* False
