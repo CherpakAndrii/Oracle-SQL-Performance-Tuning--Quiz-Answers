@@ -3,6 +3,7 @@
 
 * [Understanding Necessity of SQL Tuning (100%)](https://github.com/CherpakAndrii/Oracle-SQL-Performance-Tuning--Quiz-Answers#understanding-necessity-of-sql-tuning)
 * [Tracing Query Execution Techniques (100%)](https://github.com/CherpakAndrii/Oracle-SQL-Performance-Tuning--Quiz-Answers#tracing-query-execution-techniques)
+* [Query Optimization - Indexes (100%)](https://github.com/CherpakAndrii/Oracle-SQL-Performance-Tuning--Quiz-Answers#query-optimization-indexes)
 
 # Understanding Necessity of SQL Tuning
 ### 1. Char data type will take more disk space than Varchar data type.
@@ -110,3 +111,55 @@
 ### 12. For knowing the execution details Explain Plan is an initial activity to be done whereas AutoTrace is the activity to be done later
 * ***True***
 * False
+
+
+# Query Optimization - Indexes
+### 1. Bitmap index is the default type of index in Oracle
+* True
+* ***False***
+
+### 2. A function-based index stores actual values of the column
+* True
+* ***False***
+
+### 3. The composite index Is made up of more than one column.
+* ***True***
+* False
+
+### 4. Indexing is done to avoid a Full Table Scan.
+* ***True***
+* False
+
+### 5. Index is not required if the query is going to access 95% rows of the table.
+* ***True***
+* False
+
+### 6. In the Auto trace output if Oracle shows that index is used then which keyword comes for the where clause column condition?
+* ***Access***
+* Filter
+
+### 7. Which is the correct command to create a composite index?
+* ***Create Index My_Index on T1(A, B);***
+* Create Composite Index My_Index on T1(A, B);
+
+### 8. In a Function-Based index_______can be called.
+* Procedure
+* ***Function***
+
+### 9. If there is no where clause in the select statement, then a full table scan happens.
+* ***True***
+* False
+
+### 10. In Oracle composite index can be created of how many columns?
+* 8
+* 16
+* 64
+* ***32***
+
+### 11. If a column has foreign key, then which type of index is ideal for that column?
+* B-Tree
+* ***Bitmap***
+
+### 12. If a column has a primary key, then which type of index is there for that column?
+* B-Tree
+* ***Bitmap***
