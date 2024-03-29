@@ -1,9 +1,10 @@
 # Oracle SQL Performance Tuning
-## Coursera quiz answers
+## Coursera quiz answers - 100%
 
 * [Understanding Necessity of SQL Tuning (100%)](https://github.com/CherpakAndrii/Oracle-SQL-Performance-Tuning--Quiz-Answers#understanding-necessity-of-sql-tuning)
 * [Tracing Query Execution Techniques (100%)](https://github.com/CherpakAndrii/Oracle-SQL-Performance-Tuning--Quiz-Answers#tracing-query-execution-techniques)
 * [Query Optimization - Indexes (100%)](https://github.com/CherpakAndrii/Oracle-SQL-Performance-Tuning--Quiz-Answers#query-optimization---indexes)
+* [Performance Tuning Tools and Techniques (100%)](https://github.com/CherpakAndrii/Oracle-SQL-Performance-Tuning--Quiz-Answers#performance-tuning-tools-and-techniques)
 
 # Understanding Necessity of SQL Tuning
 ### 1. Char data type will take more disk space than Varchar data type.
@@ -163,3 +164,87 @@
 ### 12. If a column has a primary key, then which type of index is there for that column?
 * B-Tree
 * ***Bitmap***
+
+
+# Performance Tuning Tools and Techniques
+### 1. The temporary table gets auto refreshed if data from a table is copied into it, and the source table gets changed.
+* True
+* ***False***
+
+### 2. Temporary table’s data by default get deleted on commit.
+* ***True***
+* False
+
+### 3. We have redundant formula to be used in several new formula-based columns. What would be the best way of doing it?
+* Use a temporary table
+* ***Use an inline view***
+
+### 4. Can we give multiple hints to the Oracle optimizer?
+* ***Yes***
+* No
+
+### 5. In peak hours the records of the main tables get locked. What can be done to access those records even in the peak hours?
+* Create Inline Views
+* ***Add those records in a temporary table before peak hour***
+
+### 6. An index is not getting used. What can we do so that the index gets used?
+* Create a Temporary Table
+* Create an Inline View
+* ***Provide a hint***
+
+### 7. We can drop the inline view.
+* True
+* ***False***
+
+### 8. While creating the temporary table which keyword comes before the word temporary?
+* Private
+* ***Global***
+
+### 9. Hints are not orders but directives
+* ***True***
+* False
+
+### 10. Hints are provided in the ______
+* Single quotes
+* ***Comment formats***
+
+### 11. Hints cannot be given by a Developer, but they can be given by a DBA only.
+* True
+* ***False***
+
+### 12. In case of an inline view, we need to define a sub query after the from clause.
+* ***True***
+* False
+
+### 13. CTE can be referred in the subsequent select statements in the from clause.
+* ***True***
+* False
+
+### 14. Materialized View is a Virtual Table
+* True
+* ***False***
+
+### 15. You need system level privilege to create and use a CTE
+* True
+* ***False***
+
+### 16. MViews are inherently read only
+* ***True***
+* False
+
+### 17. Any non-DBA user needs --- privilege to create a materialized view.
+* Create materialized view
+* ***Create any snapshot***
+* Create View
+
+### 18. Data within MView is session specific
+* True
+* ***False***
+
+### 19. Which of the following will need disk space for storage.
+* ***MView and Indexes***
+* Inline Views and CTEs
+
+### 20. The side-effect of MView is the additional disk space to store records in it.
+* ***True***
+* False
