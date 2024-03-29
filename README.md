@@ -3,7 +3,7 @@
 
 * [Understanding Necessity of SQL Tuning (100%)](https://github.com/CherpakAndrii/Oracle-SQL-Performance-Tuning--Quiz-Answers#understanding-necessity-of-sql-tuning)
 * [Tracing Query Execution Techniques (100%)](https://github.com/CherpakAndrii/Oracle-SQL-Performance-Tuning--Quiz-Answers#tracing-query-execution-techniques)
-* [Query Optimization - Indexes (100%)](https://github.com/CherpakAndrii/Oracle-SQL-Performance-Tuning--Quiz-Answers#query-optimization-indexes)
+* [Query Optimization - Indexes (100%)](https://github.com/CherpakAndrii/Oracle-SQL-Performance-Tuning--Quiz-Answers#query-optimization---indexes)
 
 # Understanding Necessity of SQL Tuning
 ### 1. Char data type will take more disk space than Varchar data type.
